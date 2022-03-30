@@ -1,0 +1,16 @@
+{
+    "java.project.sourcePaths": [
+        "Project1",
+        "Project2",
+        "Project3",
+        "Project6\\Pro1",
+        "Project6\\Pro2",
+        "Project8\\Pro1",
+        "quiz",
+        "quiz\\midturm",
+        "Project7\\Pro1",
+        "Project8\\Pro2",
+        "Project7.2\\Pro1",
+        "Project7.2\\Pro2_No"
+    ]
+}
