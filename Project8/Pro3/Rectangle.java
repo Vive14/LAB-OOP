@@ -32,10 +32,11 @@ public class Rectangle extends GeometricOject implements Comparable{
     }
 
     @Override
-    public void comparable() {
+    public void Comparable() {
         // TODO Auto-generated method stub
+        
     }
-
+    
     @Override
     public double getArea() {
         return this.width * this.height;
@@ -45,6 +46,7 @@ public class Rectangle extends GeometricOject implements Comparable{
     public double getPerimeter() {
         return (this.width * 2 )+ (this.height * 2);
     }
+
 
 
 }
