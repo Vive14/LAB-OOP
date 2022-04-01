@@ -5,8 +5,8 @@ public abstract class GeometricOject {
   private boolean filled;
   private Date dateCreated;  
 
-  protected GeometricOject() { 
-    dateCreated = new Date();     
+  protected GeometricOject() {
+    dateCreated = new Date();
   }
 
   protected GeometricOject(String color, boolean filled){
@@ -23,7 +23,7 @@ public abstract class GeometricOject {
       return this.color;
   }
 
-  public boolean isFilled(boolean filled){
+  public boolean isFill(boolean filled){
       return this.filled;
   }
 
@@ -40,7 +40,7 @@ public abstract class GeometricOject {
   }
 
   public String toString(){
-      return "\nCreatrd on " + dateCreated + "\ncolor : " + color + "and filled : " + filled;
+      return "Creatrd on " + dateCreated + "\ncolor : " + color + "and filled : " + filled;
   }
 
   public abstract double getArea();

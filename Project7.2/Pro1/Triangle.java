@@ -1,5 +1,5 @@
 
-public class Triangle extends GeometricOject{
+public class Triangle extends GeometricOject1{
     public double side1 = 1;
     public double side2 = 1;
     public double side3 = 1;
